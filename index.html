@@ -2,32 +2,8 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Kacper Jenczyk - Barman</title>
-  <style>.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
-              url('https://images.unsplash.com/photo-1514361892635-e955c7e4f4b9') center/cover;
-}
-
-.logo {
-  width: 120px;
-  margin-bottom: 20px;
-  opacity: 0.9;
-}
-
-.profile {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 20px;
-  margin-top: 20px;
-  border: 3px solid #ffcc00;
-  box-shadow: 0 0 25px rgba(255,204,0,0.3);
-}
+  <title>Twoje Imię - Barman</title>
+  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -35,26 +11,69 @@
       color: white;
     }
 
-    <header>
-  <div class="hero">
+    header {
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1514361892635-e955c7e4f4b9') center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
 
-    <img src="logo.png" class="logo">
+    header h1 {
+      font-size: 50px;
+      margin: 0;
+    }
 
-    <h1>Twoje Imię</h1>
-    <p>Eclipse Bar – Profesjonalny Barman</p>
+    header p {
+      font-size: 20px;
+      opacity: 0.8;
+    }
 
-    <img src="ja.jpg" class="profile">
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
 
-    <a href="#kontakt" class="btn">Skontaktuj się</a>
+    h2 {
+      margin-bottom: 20px;
+    }
 
-  </div>
-</header>
+    .offer, .contact {
+      background: #1a1a1a;
+    }
+
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: #ffcc00;
+      color: black;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    footer {
+      padding: 20px;
+      text-align: center;
+      background: #000;
+      font-size: 14px;
+      opacity: 0.6;
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Kacper Jenczyk</h1>
+  <h1>Twoje Imię</h1>
   <p>Profesjonalny Barman na Twoje wydarzenie</p>
   <a href="#kontakt" class="btn">Skontaktuj się</a>
 </header>
@@ -62,8 +81,9 @@
 <section>
   <h2>O mnie</h2>
   <p>
-    Cześć! Zajmuję się barmaństwem na imprezach,
+    Cześć! Zajmuję się profesjonalnym barmaństwem na imprezach,
     weselach i eventach. Tworzę wyjątkowe drinki i dbam o świetną atmosferę.
+    W przyszłości planuję również rozwijać fotografię eventową 📸
   </p>
 </section>
 
@@ -86,13 +106,13 @@
 
 <section class="contact" id="kontakt">
   <h2>Kontakt</h2>
-  <p>📞 Telefon: +48 783 472 156</p>
-  <p>📧 Email: kacperjenczyk2@gmail.com</p>
-  <p>📸 Instagram: @_eclipsebar_</p>
+  <p>📞 Telefon: 123 456 789</p>
+  <p>📧 Email: twojmail@gmail.com</p>
+  <p>📸 Instagram: @twojprofil</p>
 </section>
 
 <footer>
-  © 2026 Kacper Jenczyk - Barman
+  © 2026 Twoje Imię - Barman
 </footer>
 
 </body>
