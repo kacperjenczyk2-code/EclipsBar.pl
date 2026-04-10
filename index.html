@@ -2,6 +2,10 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
+
+  <!-- 🔥 TO BYŁO BRAKUJĄCE -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Eclipse Bar</title>
 
   <style>
@@ -14,7 +18,7 @@
 
     /* HERO */
     .hero {
-      height: 100vh;
+      min-height: 100vh;
       background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.95)),
                   url('https://images.unsplash.com/photo-1514361892635-e955c7e4f4b9') center/cover;
       display: flex;
@@ -98,6 +102,43 @@
       background: #000;
       font-size: 14px;
       opacity: 0.6;
+    }
+
+    /* 🔥 RESPONSYWNOŚĆ (TEGO CI BRAKOWAŁO) */
+    @media (max-width: 768px) {
+
+      h1 {
+        font-size: 28px;
+      }
+
+      .hero {
+        padding: 20px;
+      }
+
+      .hero-images {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .hero-img.main {
+        width: 80%;
+        height: auto;
+      }
+
+      .hero-img.side {
+        width: 70%;
+        height: auto;
+        transform: none;
+      }
+
+      .logo {
+        width: 80px;
+      }
+
+      .gallery img {
+        width: 90%;
+      }
+
     }
 
   </style>
